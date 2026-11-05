@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MEDDY WI-FI HUB</title><style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 25px;
+    background: #222;
+    border-radius: 15px;
+}
+
+h1 {
+    color: orange;
+}
+
+input, button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background: orange;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+</style></head><body><div class="container">
+    <h1>MEDDY WI-FI HUB</h1>
+    <p>Karibu! Jiunge na Wi-Fi yetu kwa urahisi.</p><input
+    type="tel"
+    id="phone"
+    placeholder="Ingiza namba 07XXXXXXXX"
+>
+
+<div id="recaptcha-container"></div>
+
+<button onclick="sendOTP()">TUMA OTP</button>
+
+<p id="message"></p>
+
+</div><script>
+function sendOTP() {
+    alert("Sehemu ya kutuma OTP tutaunganisha na Firebase katika hatua inayofuata.");
+}
+</script></body>
+</html>
